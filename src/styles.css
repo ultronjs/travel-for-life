@@ -1,0 +1,65 @@
+.App {
+  display: block;
+  margin: 0px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: wheat;
+}
+h1 {
+  margin: 0px;
+}
+.Header {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+.div-card {
+  padding: 30px;
+}
+.beachs,
+.hill,
+.heritage {
+  display: inline;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 0.5rem;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.beachs {
+  background-color: sandybrown;
+}
+
+.hill {
+  background-color: green;
+  color: white;
+}
+
+.heritage {
+  background-color: royalblue;
+  color: wheat;
+}
+
+.output-card {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  max-width: 250px;
+}
+
+img {
+  margin: auto;
+  max-width: 250px;
+}
+.place-card-inside {
+  display: block;
+}
+
+.place-rating-card-inside {
+  display: block;
+}
